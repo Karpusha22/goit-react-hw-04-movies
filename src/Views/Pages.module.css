@@ -1,0 +1,38 @@
+.homeList,
+.castList,
+.moviesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+.movie {
+  display: flex;
+}
+
+.posterDetails {
+  display: block;
+  width: 300px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 1px 2px rgb(187, 185, 185);
+}
+
+button {
+  background-color: rgb(209, 206, 206);
+  border-radius: 20px;
+  border-color: transparent;
+  margin: 10px 10px;
+}
